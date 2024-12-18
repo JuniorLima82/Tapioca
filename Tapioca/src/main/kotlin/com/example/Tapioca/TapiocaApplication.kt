@@ -1,0 +1,11 @@
+package com.example.Tapioca
+
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.boot.runApplication
+
+@SpringBootApplication
+class TapiocasApplication
+
+fun main(args: Array<String>) {
+	runApplication<TapiocasApplication>(*args)
+}
